@@ -1,3 +1,33 @@
-body {
-  
+/* Palette */
+/* A9CEF4 Uranian Blue */
+/* A3F7B5 Light Green */
+/* 40C9A2 Mint */
+/* 392F5A Space Cadet */
+/* D496A7 Puce */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #B27881;
 }
+
+.hero {
+  background-image: url("https://4kwallpapers.com/images/wallpapers/leaf-background-green-leaves-botanical-low-light-1680x1050-5851.jpg");
+  height: 70%;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.portrait-container {
+  text-align: center;
+}
+
+.portrait-container img {
+  width: 33vw;
+  padding: 7rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+/* b27881 */
+
