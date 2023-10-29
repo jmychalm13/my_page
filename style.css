@@ -17,17 +17,20 @@ body, html {
   background-size: cover;
   position: relative;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .portrait-container {
-  text-align: center;
+  position: fixed;
+  right: 0;
 }
 
 .portrait-container img {
   width: 33vw;
   padding: 7rem;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
 }
 /* b27881 */
 
