@@ -27,24 +27,35 @@ body, html {
   top: 0;
 }
 
-.portrait-container img {
+.image-container img {
   width: 33vw;
   padding: 7rem;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
 }
 
-.text-container {
+/* .text-container {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 70%;
-}
-
-.hero h1 {
   color: #fff;
+} */
+
+/* .hero h1 {
   margin: auto;
-}
+} */
 /* b27881 */
 
+.hero {
+  color: #fff;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+}
