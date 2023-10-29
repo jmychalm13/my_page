@@ -1,14 +1,24 @@
-/* Palette */
-/* A9CEF4 Uranian Blue */
-/* A3F7B5 Light Green */
-/* 40C9A2 Mint */
-/* 392F5A Space Cadet */
-/* D496A7 Puce */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 
 body, html {
   height: 100%;
   margin: 0;
   background-color: #B27881;
+}
+
+.nav {
+  height: 3.5rem;
+  background-color: #777E7A;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
 }
 
 .hero {
@@ -34,19 +44,19 @@ body, html {
   border-bottom-right-radius: 40%;
 }
 
-/* .text-container {
+.text-container {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
   color: #fff;
-} */
+  font-family: 'Playpen Sans', cursive;
+}
 
-/* .hero h1 {
-  margin: auto;
-} */
-/* b27881 */
+h1 {
+  position: absolute;
+  top: 175px;
+}
 
 .hero {
   color: #fff;
@@ -54,8 +64,4 @@ body, html {
 
 .row {
   display: flex;
-}
-
-.col {
-  flex: 50%;
 }
