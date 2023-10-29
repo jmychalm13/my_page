@@ -34,19 +34,13 @@ li {
 }
 
 .hero {
-  background-image: url("https://4kwallpapers.com/images/wallpapers/leaf-background-green-leaves-botanical-low-light-1680x1050-5851.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://4kwallpapers.com/images/wallpapers/leaf-background-green-leaves-botanical-low-light-1680x1050-5851.jpg");
   height: 70%;
   background-size: cover;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.portrait-container {
-  position: fixed;
-  right: 0;
-  top: 0;
 }
 
 .image-container img {
@@ -58,16 +52,14 @@ li {
 
 .text-container {
   width: 50%;
-  display: flex;
+  text-align: center;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   color: #fff;
   font-family: 'Playpen Sans', cursive;
-}
-
-h1 {
-  position: absolute;
-  top: 175px;
+  /* top: 175px; */
+  padding-top: 10rem;
 }
 
 .hero {
