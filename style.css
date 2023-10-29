@@ -24,6 +24,7 @@ body, html {
 .portrait-container {
   position: fixed;
   right: 0;
+  top: 0;
 }
 
 .portrait-container img {
@@ -31,6 +32,19 @@ body, html {
   padding: 7rem;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
+}
+
+.text-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.hero h1 {
+  color: #fff;
+  margin: auto;
 }
 /* b27881 */
 
