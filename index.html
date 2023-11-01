@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <title>JMo</title>
 </head>
@@ -10,26 +11,26 @@
   <div class="nav">
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
   <section class="hero">
     <div class="row">
-      <div class="text-container col">
+      <div class="text-container">
         <h1>Jess Mychal Moore</h1>
         <h3>Developer | Project Manager</h3>
         <p>"Code by code, I turn my determination into innovation,<br> and my perseverance into progress."</p>
       </div>
-      <div class="col image-container">
+      <div class="image-container">
         <img src="/portrait.png" alt="">
       </div>
     </div>
   </section>
   <hr class="solid">
   <section class="content">
-    <div class="about">
+    <div id="about" class="about">
       <h1 class="heading-center">About Me</h1><br>
         <p><strong class="heading">Can coffee make you a better developer?</strong></p>
         
@@ -41,9 +42,15 @@
         <p>My journey in life revolves around self-evolution and I’m dedicated to leveraging my programming skills to effect a positive change. </p>
     </div>
     <hr>
-    <div class="contact">
+    <div id="contact" class="contact">
       <h1 class="heading-center">Contact Me ☎</h1>
-      <p><strong class="heading">Phone:</strong>615-892-3525</p>
+      <div class="contact-area">
+        <ul class="contact-icons">
+          <li><a href="https://www.linkedin.com/in/jessmoore13/"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/jmychalm13"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href=""mailto:jmychalm13@gmail.com""><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
     </div>
   </section>
 </body>

@@ -110,3 +110,8 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   font-family: 'Lato', sans-serif;
 }
 
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
