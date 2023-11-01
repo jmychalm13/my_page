@@ -4,8 +4,9 @@
 body, html {
   height: 100%;
   margin: 0;
-  background-color: #B27881;
-}
+  background-color: #b27881;
+  background-image: url("https://www.transparenttextures.com/patterns/flowers.png");
+  }
 
 .nav {
   height: 3.5rem;
@@ -114,4 +115,5 @@ hr.style-five:after {  /* Not really supposed to work, but does */
   display: flex;
   justify-content: space-between;
 }
+
 
